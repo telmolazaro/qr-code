@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    margin: 0;
+background-color: #D5E1EF;
+height: 100vh;
+}
+.qr-code-card {
+    position: absolute;
+    left: calc(50% - (320px / 2));
+    top: calc(50% - (466px / 2));
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    font-family: 'outfit';
+    text-align: center;
+}
+.qr-code-card__image {
+    width: 288px;
+    border-radius: 10px;
+}
+.qr-code-card__title {
+    margin-top: 24px;
+    color: #1F314F;
+    font-weight: bold;
+    font-size: 22px;
+}
+p {
+    color: #7D889E;
+}
